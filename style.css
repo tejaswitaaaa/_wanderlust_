@@ -3,6 +3,8 @@ body {
     background-repeat:no-repeat;
     background-size:cover;
     margin: 0;
+    padding: 0;
+  background-color: #ecefeb;
     font-size: 28px;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
@@ -85,4 +87,51 @@ body {
     opacity: 1;
     visibility: visible;
   }
+
+
+  /* TEJASWITA */
+
   
+
+.above{
+  height: 100px;
+  background-color: #303030;
+}
+.heading1{
+  display: flex;
+  justify-content: center;
+}
+.heading{
+  margin-top: 25px;
+  margin-bottom: 50px;
+  font-family: Bradley Hand ITC;
+  font-weight: bold;
+  font-size: 50px;
+  color: #ecefeb;
+}
+.empty-space{
+  height: 100px;
+}
+
+.actual-cards{
+  margin-bottom: 75px;
+}
+.pointer{
+  cursor: pointer;
+}
+.pointer :hover{
+  background-color: white;
+  opacity: 50%;
+}
+.states{
+  text-align: center;
+  height: 60px;
+ display: flex;
+ justify-content: center;
+ color: #ecefeb;
+ background-color: #303030;
+}
+.actual-cards :hover{
+  cursor: pointer;
+}
+
